@@ -10,11 +10,11 @@ The aim of this project is to **predict Airbnb review scores** using various mac
 
 The dataset includes information on thousands of Airbnb listings, with features such as:
 
-- **Target Variable:**
+ **Target Variable:**
 
   - review category: The overall review score given by guests.
 
-- **Feature Variables:**
+ **Feature Variables:**
 
  - prices: The nightly price of the listing and the service fee.
 
@@ -26,7 +26,7 @@ The dataset includes information on thousands of Airbnb listings, with features 
 
  - Host details (host id, host name, airbnb id, airbnb rules)
 
-- **Data Cleanup:**
+ **Data Cleanup:**
 
 We used pandas to clean the CSV making the following changes:
 
@@ -44,13 +44,13 @@ We used pandas to clean the CSV making the following changes:
 
 Several models were tested to predict Airbnb review scores. The primary focus was to find a model with the ability to handle non-linearity and interactions between variables.
 
-- **Model Used:**
+ **Model Used:**
 
  We used several models like Linear Regression, LightGBM, and XGBoost; but their accuracy performance were all below 50%.
  The only model that was capable of performing  close to a 75% mark was Random Forest Regression with an initial accuracy of
  55% and a final accuracy of 65% after optimization.
 
-- **Training Details and Optimization:**
+ **Training Details and Optimization:**
 
  - The numbers in review category were turned into categorical labels.
 
