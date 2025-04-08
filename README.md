@@ -4,6 +4,8 @@
 
 The aim of this project is to **predict Airbnb review scores** using various machine learning models. The goal is to identify key factors that influence an Airbnb's user ratings, providing insights for both hosts and potential guests.
 
+[TABLEAU WORKBOOK](https://public.tableau.com/app/profile/david.ruvalcaba4154/viz/Project_4_visualization_17439881426360/Historia1?publish=yes)
+
 ---
 
 ## 🔍 **Data Preprocessing**
